@@ -22,6 +22,7 @@ flutter pub run build_runner build
 ##  Add Platform
 
 > use this command to add android : `flutter create --platforms android .`
+
 > use this command to add ios : `flutter create --platforms ios .`
 
 
