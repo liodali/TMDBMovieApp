@@ -13,10 +13,17 @@ see Latest Movies , the movie details and store your favorite Movie to watched l
 ### Steps)
 > we have .env file that need for tmdb api which contain TMDB Server URL, API_Key
 
+> also create another .env.test as empty file or put in it the same data as .env for testing
+
 > the project contain generated file using build_runner, if you want to generate them inside data_package
 ```shell
 flutter pub run build_runner build
 ```
+##  Add Platform
+
+> use this command to add android : `flutter create --platforms android .`
+> use this command to add ios : `flutter create --platforms ios .`
+
 
 ## Build
 * I used Flutter 3.19.5
@@ -33,8 +40,12 @@ flutter pub run build_runner build
     * <srong>Package movie_repository</string> : holds all concrete implementations of our repositories,UseCases and other data sources like  network,local Storage
     * <srong>package Data module </string>  : contain all interfaces of repositories  and  classes
 
-
-
 > I used dio for http calls
 
 > I used riverpod/FlutterHook for reactive UI
+
+## testing
+
+> you can see our testing folder in packages or our main test folder,integration_test to see the part that we tested
+
+> you will receive apk,ipa for testing purpose in android device or simulator
