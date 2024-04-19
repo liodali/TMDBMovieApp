@@ -4,7 +4,7 @@ see Latest Movies , the movie details and store your favorite Movie to watched l
 
 ## Getting Started
 
-<img src="https://github.com/liodali/MovieApp/blob/main/ios_preview_app.gif?raw=true" alt="Movie app"><br>
+<img src="https://github.com/liodali/TMDBMovieApp/blob/main/ios_preview_app.gif?raw=true" alt="Movie app"><br>
 
 ## Preparation for build 
 * if you want to regenerate apk or rebuild the project
